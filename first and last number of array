@@ -7,7 +7,7 @@ scanf("%d",&n);
 for(i=0;i<n;i++)
 {
 printf("enter n numbers");
-scanf("%d",&a[100]);
+scanf("%d",&a[i]);
 }
 printf("first no of array=%d",a[0]);
 printf("last no of array=%d",a[n-1]);
