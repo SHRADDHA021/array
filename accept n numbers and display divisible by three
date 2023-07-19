@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int i,n,a[100];
+printf("enter limit=");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+printf("enter n numbers");
+scanf("%d",&a[i]);
+}
+printf("divisible by three =");
+for(i=0;i<n;i++)
+{
+if(a[i]%3==0)
+printf("%d\t",a[i]);
+}
+
+}
+
+
+
