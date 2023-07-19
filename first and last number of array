@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int i,n,a[100];
+printf("enter limit=");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+printf("enter n numbers");
+scanf("%d",&a[100]);
+}
+printf("first no of array=%d",a[0]);
+printf("last no of array=%d",a[n-1]);
+
+
+}
